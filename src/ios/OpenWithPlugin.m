@@ -1,7 +1,7 @@
 #import <Cordova/CDV.h>
 #import "ShareViewController.h"
 #import <MobileCoreServices/MobileCoreServices.h>
-
+/*rm shareUI
 /*
  * Add base64 export to NSData
  */
@@ -253,7 +253,6 @@ static NSDictionary* launchOptions = nil;
         @"action": @"SEND",
         @"exit": @YES,
         @"items": @[@{
-            @"text" : text,
             @"base64": [data convertToBase64],
             @"type": type,
             @"utis": utis,
